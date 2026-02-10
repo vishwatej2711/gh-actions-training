@@ -24,5 +24,3 @@ jobs:
       - name: step4
         if: ${{inputs.areYouFeelingGood}}
         run: echo "i am not good"
-
- 
