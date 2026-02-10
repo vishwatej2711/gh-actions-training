@@ -1,11 +1,11 @@
 name: Demo
 on:
-  workflow_dispatch: 
+  workflow_dispatch:
     inputs:
       areYouFeelingGood:
         description: "Are you feeling good?"
         type: boolean
-        default: false 
+        default: false
 jobs:
   job1:
     runs-on: ubuntu-latest
