@@ -1,16 +1,12 @@
 name: Demo
  
 on:
-
   workflow_dispatch: 
 
     inputs:
       areYouFeelingGood:
-
         description: "Are you feeling good?"
-
         type: boolean
-
         default: false
  
 jobs:
@@ -18,7 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello
-
         run: echo "we are learning github actions"
 
   job2:
