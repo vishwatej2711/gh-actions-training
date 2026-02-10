@@ -23,5 +23,6 @@ jobs:
         if: ${{inputs.areYouFeelingGood}}
         run: echo "I am doing great "
       - name: step4
-        if: ${{}}
+        if: ${{inputs.areYouFeelingGood}}
+        run: echo "Into step 4"
 
