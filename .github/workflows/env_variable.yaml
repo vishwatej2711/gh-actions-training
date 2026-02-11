@@ -8,10 +8,10 @@ on:
         options: [staging]
         default: staging
       user_name: 
-          description: "Enter you name"
+          description: 'Enter you name'
           type: string
           required: true
-          default: "Guest"
+          default: 'Guest'
 jobs:
   job1:
     runs-on: ubuntu-latest
